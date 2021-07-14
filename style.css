@@ -49,7 +49,7 @@ body{
     
 }
 .second-half img{
-    width: 100%;
+    width: 80%;
 
 }
 .second-half img:hover{
@@ -110,12 +110,24 @@ body{
 .hightlights-image img{
     width: 100%;
 }
+
+}
+/* Styling of Fourth section */
+
+.latest{
+    display: flex;
+}
+.player img{
+    width: 100%;
+}
+}
 /* Styling of Footer */
 .footer{
     text-align: center
 
 }
 .footer img{
+    margin-top: 30px;
     width: 483px;
     height: 110px;
 
@@ -125,7 +137,6 @@ body{
     font-size: 40px;
     color: grey;
     letter-spacing: 14px;
-}
 @media screen and (max-width:668px){
     .all-player{
         grid-template-columns: repeat(1,1fr);
