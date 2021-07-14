@@ -113,17 +113,25 @@ body{
 }
 
 /* Styling of Fourth section */
-
+.fourth-section{
+    text-align: center;
+    background-color: rgb(194, 192, 192);
+    padding: 20px;
+}
 .latest{
     display: flex;
-    justify-content: center;
+    
+    
 }
-.player{
+.players{
     margin: 25px;
+    background-color: honeydew;
 }
-.player img{
+
+.players img{
     width: 100%;
 }
+
     
 /* Styling of Footer */
 .footer{
