@@ -92,8 +92,11 @@ body{
 }
 /* Styling of third-section */
 .third-section{
+    margin-left: 180px;
     display: grid;
     grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 66px;
+
 }
 @media screen and (max-width:668px){
     .all-player{
