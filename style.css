@@ -103,11 +103,13 @@ body{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 30px;
-
     margin-left: 182px;
     margin-right: 156px;
     margin-bottom: 60px;
 
+}
+.highlight-content h2{
+    font-size: 40px;
 }
 
 .highlight-content a{
