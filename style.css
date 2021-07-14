@@ -17,14 +17,15 @@ body{
     align-items: center;
     margin-left: 150px;
     margin-right: 150px;
-    
-
 }
 .first-half h1{
     font-size: 64px;
     color: white;
     width: 485px;
     height: 230px;
+}
+.first-half h2{
+    font-size: 64px;
 }
 .first-half a{
     text-decoration: none;
@@ -48,8 +49,7 @@ body{
     
 }
 .second-half img{
-    width: 338px;
-    height: 428px;
+    width: 100%;
 
 }
 .second-half img:hover{
@@ -92,11 +92,39 @@ body{
 }
 /* Styling of third-section */
 .third-section{
-    margin-left: 180px;
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    grid-column-gap: 66px;
+    display: flex;
+    margin-left: 182px;
+    margin-right: 156px;
+    margin-bottom: 60px;
 
+}
+.highlight-content a{
+    text-decoration: none;
+    background-color:  #E02C6D;
+    color: white;
+    font-size: 16px;
+    padding: 10px 24px;
+    border-radius: 25px;
+
+}
+.hightlights-image img{
+    width: 100%;
+}
+/* Styling of Footer */
+.footer{
+    text-align: center
+
+}
+.footer img{
+    width: 483px;
+    height: 110px;
+
+}
+.icon{
+    text-align: center;
+    font-size: 40px;
+    color: grey;
+    letter-spacing: 14px;
 }
 @media screen and (max-width:668px){
     .all-player{
